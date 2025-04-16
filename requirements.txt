@@ -1,0 +1,9 @@
+gradio
+python-dotenv
+langchain-community
+langchain
+langchain-groq
+langchain_google_genai
+faiss-cpu
+numpy
+pypdf
