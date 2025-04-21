@@ -5,11 +5,11 @@ AI-PDF-FINDER is a chatbot built using Retrieval-Augmented Generation (RAG). It 
 
    1. Clone the repository
 
-   2.Set up a virtual environment
+   2. Set up a virtual environment
 
-   3.Install dependencies from requirements.txt
+   3. Install dependencies from requirements.txt
    
-   4.Add your API keys in a .env file
+   4. Add your API keys in a .env file
    
-   5.Run the app with python app.py
+   5. Run the app with python app.py
 
