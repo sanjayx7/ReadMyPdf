@@ -31,19 +31,20 @@ print("Embeddings initialized.")
 predefined_responses = {
     "hi": "Hello! How can I assist you today?",
     "hello": "Hi there! How can I help?",
-    "how can you help me" : "You can ask any questions related to the pdf you are uploading ",
+    "how can you help me": "You can ask any questions related to the PDF you are uploading.",
     "how are you": "I'm just a virtual assistant, but I'm here and ready to help!",
-    "who made you": "I was created by Jeny M Jerry.She made this in one day and shipped it for greater good.",
-    "who created you": "Jeny M Jerry is my creator. She built this system for a better, more efficient way to navigate through PDF documents.",
+    "who made you": "I was created by Sanjay Ajay. He made this in one day and shipped it for greater good.",
+    "who created you": "Sanjay Ajay is my creator. He built this system for a better, more efficient way to navigate through PDF documents.",
     "thank you": "You're welcome! Let me know if there's anything else you need.",
     "thanks": "You're welcome! Have a great day!",
     "bye": "Goodbye! Take care.",
-    "ok":"😃",
+    "ok": "😃",
     "why was you created": (
         "I was created to address the problem of endless scrolling through PDF pages. "
         "Many people struggled to find information quickly, so this app was designed to make searching within PDFs fast and efficient."
     )
 }
+
 
 # Function to load and add documents to FAISS
 
@@ -164,7 +165,7 @@ def answer_query(message, chat_history):
 
 # Build Gradio interface
 with gr.Blocks() as demo:
-    gr.HTML("<h1 align='center'> AI PDF Finder 📄🤖</h1>")
+    gr.HTML("<h1 align='center'> READ MY PDF📄🤖</h1>")
 
     with gr.Row():
         upload_files = gr.File(label='Upload a PDF', file_types=[
